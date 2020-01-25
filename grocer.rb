@@ -70,6 +70,8 @@ def apply_coupons(cart, coupons)
     end
     i += 1
   end
+
+  cart
 end
 
 def apply_clearance(cart)
